@@ -26,7 +26,7 @@ The platform uses a centralized main hub routing to deeply categorized informati
                 /                \
       [ Club Interface ]     [ Players Interface ]
        /       |      \           /          \
-  Top Clubs Historic Emerging  Legendary    Modern Stars
+  [Top]  [Historic] [Emerging] [Legendary] [Modern Stars]
 
   ---
 
