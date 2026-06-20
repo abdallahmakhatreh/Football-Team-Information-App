@@ -21,12 +21,17 @@ The platform uses a centralized main hub routing to deeply categorized informati
 
 ---
 
-                [ Main Interface ]
-                 /              \
-                /                \
-      [ Club Interface ]     [ Players Interface ]
-       /       |      \           /          \
-  [Top]  [Historic] [Emerging] [Legendary] [Modern Stars]
+## 📋 Architecture & Structural Navigation Tree
+The platform uses a centralized main hub routing to deeply categorized information matrices:
+
+```text
+                  [ Main Interface ]
+                     /          \
+                    /            \
+          [ Club Interface ]    [ Players Interface ]
+             /     |    \          /            \
+            /      |     \        /              \
+         [Top] [Historic] [Emerging] [Legendary] [Modern Stars]
 
   ---
 
