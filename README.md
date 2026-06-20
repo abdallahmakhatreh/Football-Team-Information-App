@@ -32,7 +32,7 @@ The platform uses a centralized main hub routing to deeply categorized informati
              /     |    \          /            \
             /      |     \        /              \
          [Top] [Historic] [Emerging] [Legendary] [Modern Stars]
-
+```
   ---
 
 ## 🕹️ Technical Implementation Details
