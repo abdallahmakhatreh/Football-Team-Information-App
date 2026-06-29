@@ -1,30 +1,30 @@
 # Football Team Information App
 
-A native, interactive mobile application designed to explore the history, structural clubs, and prominent players within Serbian football[cite: 1]. Developed using Android Studio, this project showcases native user interface (UI) architecture, hierarchical data parsing, and intent-driven application screen routing[cite: 1].
+A native, interactive mobile application designed to explore the history, structural clubs, and prominent players within Serbian football. Developed using Android Studio, this project showcases native user interface (UI) architecture, hierarchical data parsing, and intent-driven application screen routing.
 
 ---
 
 ## 🛠️ Development Stack & Tools
-* **Development Environment**: Android Studio IDE[cite: 1]
-* **Programming Language**: Java (Event-driven operational logic)[cite: 1]
-* **UI Layout Framework**: XML Layouts (Component alignment and constraint schemas)[cite: 1]
-* **Testing Methods**: Android Emulator SDK & Physical Android Device Testing via USB Debugging[cite: 1]
+* **Development Environment**: Android Studio IDE
+* **Programming Language**: Java (Event-driven operational logic)
+* **UI Layout Framework**: XML Layouts (Component alignment and constraint schemas)
+* **Testing Methods**: Android Emulator SDK & Physical Android Device Testing via USB Debugging
 
 ---
 
 ## 📋 Application Architecture & Directory Tree
-The platform uses a centralized main hub routing to deeply categorized information matrices[cite: 1]:
+The platform uses a centralized main hub routing to deeply categorized information matrices:
 
-* **Main Interface**: Provides global summary context and secondary buttons to fork your navigation path[cite: 1].
-* **Clubs Module**: Separates football organizations cleanly into Top Clubs (e.g., Red Star Belgrade, Partizan Belgrade), Historical Clubs (e.g., SK Jugoslavija), and Emerging Clubs (e.g., FK Čukarički)[cite: 1].
-* **Players Module**: Groups legendary figures and current national athletes by performance roles into Legendary Players and Modern Stars[cite: 1].
+* **Main Interface**: Provides global summary context and secondary buttons to fork your navigation path.
+* **Clubs Module**: Separates football organizations cleanly into Top Clubs (e.g., Red Star Belgrade, Partizan Belgrade), Historical Clubs (e.g., SK Jugoslavija), and Emerging Clubs (e.g., FK Čukarički).
+* **Players Module**: Groups legendary figures and current national athletes by performance roles into Legendary Players and Modern Stars.
 
 ---
 
 ## 🕹️ Technical Implementation Details
-* **Component Intent Routing**: Uses explicit Android `Intent` controllers to map user clicks, safely transitioning context variables across background execution layers to open nested screens seamlessly[cite: 1].
-* **Dynamic View Container Constraints**: Integrates parent vertical scrolling view layouts (`ScrollView`) to safely display high-density content cards—such as emblem graphics and profile paragraphs—without scaling or breaking UI bounds[cite: 1].
-* **Decoupled Configuration Parameters**: Text definitions are abstracted directly within standard `strings.xml` tables rather than hardcoded, ensuring clean lifecycle code structures[cite: 1].
+* **Component Intent Routing**: Uses explicit Android `Intent` controllers to map user clicks, safely transitioning context variables across background execution layers to open nested screens seamlessly.
+* **Dynamic View Container Constraints**: Integrates parent vertical scrolling view layouts (`ScrollView`) to safely display high-density content cards—such as emblem graphics and profile paragraphs—without scaling or breaking UI bounds.
+* **Decoupled Configuration Parameters**: Text definitions are abstracted directly within standard `strings.xml` tables rather than hardcoded, ensuring clean lifecycle code structures.
 
 ---
 
@@ -48,4 +48,4 @@ The platform uses a centralized main hub routing to deeply categorized informati
 ---
 
 ## 📂 Reference Documentation
-The original academic evaluation brief and system specification details are archived in the main directory file: `Abdallah Final Report.pdf`[cite: 1].
+The original academic evaluation brief and system specification details are archived in the main directory file: `Abdallah Final Report.pdf`.
